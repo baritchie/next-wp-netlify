@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Header from "../components/header"
+import Header from "components/header"
 import { getNavItems } from "../lib/api"
 
 export default function Home({ navItems }) {
