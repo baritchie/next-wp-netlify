@@ -1,5 +1,3 @@
-import { Result } from "postcss"
-
 export default function Nav(props) {
     function getNavItems() {
         const navItems = props.navItems
