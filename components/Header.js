@@ -1,4 +1,4 @@
-import Nav from "@components/Nav"
+import Nav from "./nav"
 
 export default function Header(props) {
     const navItems = props.navItems
