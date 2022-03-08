@@ -1,3 +1,9 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+import Nav from "./nav"
+
+export default function Header(props) {
+    const navItems = props.navItems
+    return(    
+    <header>
+        <Nav navItems={navItems} />
+    </header>)
 }
